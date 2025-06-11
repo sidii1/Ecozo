@@ -1,0 +1,158 @@
+ 1. Home Dashboard (User Landing Page)
+✅ Contents:
+👋 Welcome message with user name
+
+📅 Next pickup: date, type, time
+
+🧍 Assigned Ecozo Worker (profile preview)
+
+🗺️ Waste Location Map shortcut
+
+🔔 Notifications (new messages, updates, reports)
+
+📊 Monthly waste summary
+
+2. 🧍 Worker Profile (Waste Pickers / Sanitation Workers)
+🎯 Purpose: Transparency + Dignity + Service Visibility
+Details Shown:
+
+Full Name, Photo
+
+Route Area / Ward
+
+Daily route & shift timings
+
+Contactless feedback: ⭐ Rate / ❤️ Say Thanks
+
+Worker bio (brief story or quote to humanize)
+
+“Meet Your Guardian” campaign integration
+
+Admin Controls (hidden from public):
+
+Attendance log
+
+Performance & pickup logs
+
+Incident reports
+
+3. 🩺 Micro Health Insurance Module
+🎯 Purpose: Worker protection & long-term sustainability
+For Workers (logged-in as worker):
+
+Insurance status: Active / Pending
+
+Policy name, coverage summary
+
+Renewal date reminder
+
+Claim help (file via app or contact NGO)
+
+For Admin/NGO:
+
+Enroll worker
+
+Upload documents (ID proof, health check reports)
+
+Track active/inactive policies
+
+Partner insurance firms info
+
+4. 🗺️ Waste Location Map
+🎯 Purpose: Show locations and resources on a live map
+Layers:
+
+🏠 Scheduled pickups
+
+🗑️ Overflow/spillage reports
+
+📍 Drop-off centers (e-waste, dry waste)
+
+🚻 Public toilets
+
+🧑‍🤝‍🧑 Ecozo Sevaks live locations (optional, anonymized)
+
+📦 Bulk pickup pickup pending
+
+Citizen Features:
+
+Report a site with photo + GPS
+
+View status (e.g., “cleared”, “pending”)
+
+5. 📥 Pickup Request Module
+🎯 Purpose: Easy on-demand pickups
+Citizen View:
+
+Request bulk pickup (furniture, electronics)
+
+Choose date & preferred time
+
+Add description, upload photo
+
+Pickup fee if applicable (optional)
+
+Track request status
+
+Worker View:
+
+Assigned requests for the day
+
+Mark as “Picked” or “Rescheduled”
+
+6. ❤️ NGO & Community Support Module
+🎯 Purpose: Connect workers with support services
+Features:
+
+List of registered NGO partners (health, legal, education)
+
+Book health camps or legal aid events
+
+Workers can request NGO help
+
+NGOs can log support offered per worker
+
+Donation portal for public
+
+7. 📊 Monthly Summary (For Citizens & Workers)
+Citizen View:
+Total waste given
+
+Wet / Dry / Recycled split
+
+Pickups done / missed
+
+Top 3 tips to improve recycling
+
+“Ecozo Impact Score” (e.g., “You helped divert 32 kg from landfill!”)
+
+Worker View:
+Total pickups
+
+Complaints resolved
+
+Feedback received
+
+Health attendance summary
+
+Insurance or NGO services received
+
+8. 🪪 Digital ID Cards for Workers
+🎯 Purpose: Formalize and dignify their identity
+Features:
+
+Unique Ecozo Worker ID
+
+Name, photo, route
+
+QR code for verification (by citizens or Ecozo admins)
+
+Download / print option (optional)
+
+Badge: "Insured", "Trained", "NGO supported", etc.
+
+Admin Panel Use:
+
+Create / manage worker IDs
+
+Link to insurance & attendance
