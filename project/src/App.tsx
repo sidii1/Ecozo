@@ -16,6 +16,17 @@ function App() {
 
   return (
     <Router>
+    <div
+  id="google_translate_element"
+  style={{
+    position: 'fixed',
+    top: 10,
+    height: 1,
+    right: 10,
+    zIndex: 9999,
+  }}
+></div>
+
       <div className="min-h-screen bg-gray-50">
         <Navigation isOpen={sidebarOpen} onToggle={toggleSidebar} />
         
@@ -37,6 +48,7 @@ function App() {
           </main>
         </div>
       </div>
+      
     </Router>
   );
 }
