@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Layout/Navigation';
 import Header from './components/Layout/Header';
+import HomePage from './components/Dashboard/HomeWr';
 import HomePage from './components/Dashboard/HomePage';
 import WorkerProfile from './components/Worker/WorkerProfile';
 import HealthInsurance from './components/Insurance/HealthInsurance';
