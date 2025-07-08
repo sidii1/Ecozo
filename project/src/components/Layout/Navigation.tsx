@@ -5,7 +5,7 @@ import {
   User, 
   Shield, 
   Map, 
-  Truck, 
+  Truck,
   Heart, 
   BarChart3, 
   CreditCard,
@@ -28,6 +28,7 @@ const Navigation: React.FC<NavigationProps> = ({ isOpen, onToggle }) => {
     { path: '/ngo', icon: Heart, label: 'NGO Support' },
     { path: '/summary', icon: BarChart3, label: 'Monthly Summary' },
     { path: '/digital-id', icon: CreditCard, label: 'Digital ID' },
+{ path: '/worker-form', icon: CreditCard, label: 'Worker Form' },
   ];
 
   return (

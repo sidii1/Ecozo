@@ -6,6 +6,7 @@ import HomePage from './components/Dashboard/HomeWr';
 import MapPage from './components/Map/Map';
 import WorkerProfile from './components/Worker/WorkerProfile';
 import HealthInsurance from './components/Insurance/HealthInsurance';
+import WorkerForm from './components/form(workers)/WorkerForm';
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -44,6 +45,8 @@ function App() {
               <Route path="/ngo" element={<div className="p-6"><div className="bg-white rounded-lg p-12 text-center shadow-sm border border-gray-200"><h2 className="text-2xl font-bold text-gray-800 mb-4">❤️ NGO & Community Support</h2><p className="text-gray-600">NGO support feature coming soon...</p></div></div>} />
               <Route path="/summary" element={<div className="p-6"><div className="bg-white rounded-lg p-12 text-center shadow-sm border border-gray-200"><h2 className="text-2xl font-bold text-gray-800 mb-4">📊 Monthly Summary</h2><p className="text-gray-600">Monthly summary feature coming soon...</p></div></div>} />
               <Route path="/digital-id" element={<div className="p-6"><div className="bg-white rounded-lg p-12 text-center shadow-sm border border-gray-200"><h2 className="text-2xl font-bold text-gray-800 mb-4">🪪 Digital ID Cards</h2><p className="text-gray-600">Digital ID feature coming soon...</p></div></div>} />
+              <Route path="/worker-form" element={<WorkerForm />} />
+
             </Routes>
           </main>
         </div>
